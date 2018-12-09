@@ -1,0 +1,84 @@
+* { 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+}
+
+body {
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}
+
+.app {
+    background-image: url('/image/cloud3.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.wrapper {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   width: 500px;
+   height: 400px;
+   background: rgb(255, 255, 255);
+   border-radius: 50%;
+   box-shadow: 2px 2px 15px rgb(155, 157, 173);
+
+
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input {
+    padding: 10px;
+    border: 2px solid rgb(217, 221, 243);
+}
+
+.findW {
+    border: none;
+    padding: 10px;
+    background: rgb(125, 125, 184);   
+    color: white;
+    box-shadow: 2px 2px 5px rgb(65, 65, 133);
+    border-radius: 4px;
+}
+
+i {
+    color: rgb(158, 26, 140);
+    font-size: 30px;
+}
+
+.cityWrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 600px;
+    height: 500px;
+    background-image: url('/image/cloudet.png');
+    background-position: center;
+    background-size: cover;
+    /*background: rgb(255, 255, 255);
+    border-radius: 50%;
+    box-shadow: 2px 2px 15px rgb(155, 157, 173);*/
+}
+
+/*
+.searched {
+    display: flex;
+    justify-content: center;
+}
+
+*/
+
