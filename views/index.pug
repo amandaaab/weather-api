@@ -1,22 +1,23 @@
 extends layout
 block content
-    div(class="wrapper")
-        h2 Choose a city
+    div(class="content")
+        div(class="wrapper")
+            h2 Choose a city
 
-        form(action="/" method="POST")
-            input(type="text" placeholder="for example London... " name="cityname")
-            br
-            button(type="submit" class="findW") Find weather
-
-    if error
-        h3 #{error}
-
-    if city
-        div(class="searched")
-            div(class="cityWrap")
-                h2 #{city}
+            form(action="/" method="POST")
+                input(type="text" placeholder="for example London... " name="cityname")
                 br
-                span #{weather}
-                br
-                span Temprature #{temp} &nbsp; 
-                    i(class=`${termo}`)
+                button(type="submit" class="findW") Find weather
+
+        if error
+            h3 #{error}
+
+        if city
+            div(class="searched")
+                div(class="cityWrap")
+                    h2 #{city}
+                    br
+                    span #{weather}
+                    br
+                    span #{temp} &nbsp; 
+                        i(class=`${termo}`, style=`color:${color}`)

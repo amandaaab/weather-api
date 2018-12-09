@@ -10,10 +10,17 @@ body {
     padding: 0px;
 }
 
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .app {
     background-image: url('/image/cloud3.jpg');
     background-position: center;
     background-size: cover;
+    width: 100%;
     height: 100vh;
     display: flex;
     justify-content: space-evenly;
@@ -26,10 +33,9 @@ body {
    flex-direction: column;
    width: 500px;
    height: 400px;
-   background: rgb(255, 255, 255);
+   background: rgb(204, 224, 255);
+   box-shadow: 2px 2px 14px rgb(150, 169, 201);
    border-radius: 50%;
-   box-shadow: 2px 2px 15px rgb(155, 157, 173);
-
 
 }
 
@@ -55,7 +61,6 @@ input {
 }
 
 i {
-    color: rgb(158, 26, 140);
     font-size: 30px;
 }
 
@@ -64,21 +69,11 @@ i {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 600px;
-    height: 500px;
+    width: 500px;
+    height: 400px;
     background-image: url('/image/cloudet.png');
     background-position: center;
     background-size: cover;
-    /*background: rgb(255, 255, 255);
-    border-radius: 50%;
-    box-shadow: 2px 2px 15px rgb(155, 157, 173);*/
+ 
 }
-
-/*
-.searched {
-    display: flex;
-    justify-content: center;
-}
-
-*/
 
